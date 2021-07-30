@@ -1,0 +1,9 @@
+@media(min-width: 576px) {
+
+    .header {
+        &__img {
+            background-image: url('/dist/img/main-max.jpg');
+        }
+    }
+
+}

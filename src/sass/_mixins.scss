@@ -1,0 +1,15 @@
+@mixin buttonStyle {
+    padding: 1em;
+    background-color: transparent;
+    font-size: 1.5rem;
+    letter-spacing: .2em;
+    cursor: pointer;
+    transition: background-color .4s, color .4s,
+}
+
+@mixin animatedEl{
+    position: absolute;
+    display: block;
+    opacity: .2;
+    z-index: -5;
+}
